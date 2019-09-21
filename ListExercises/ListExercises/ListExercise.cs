@@ -14,6 +14,7 @@ namespace ListExercises
     {
         List<int> lists = new List<int>();
         List<int> rlists = new List<int>();
+        List<int> nlists = new List<int>();
         public ListExercise()
         {
             InitializeComponent();
@@ -85,22 +86,44 @@ namespace ListExercises
 
         private void sortButton_Click(object sender, EventArgs e)
         {
-           /* for (int i = 0; i < lists.Count(); i++)
+            string see="";
+            lists.Sort();
+            rlists = lists;
+            
+            for(int i=0;i<rlists.Count();i++)
             {
-                for(int j=i+1;j<lists.Count();j++)
-                {
-                    rlists = lists;
-                    lists[i] = lists[j];
-                    lists[j] = rlists[j];
-
-                }
+                see += rlists[i] + "\n";
             }
+            
+            MessageBox.Show(see);
+        }
+
+        private void ascendingButton_Click(object sender, EventArgs e)
+        {
             string see = "";
+            lists.Sort();
+            rlists = lists;
             for (int i = 0; i < rlists.Count(); i++)
             {
-                see += rlists[i];
+                see += rlists[i] + "\n";
             }
-            MessageBox.Show(see);*/
+
+            MessageBox.Show(see);
+        }
+
+        private void descendingButton_Click(object sender, EventArgs e)
+        {
+            string see = "";
+            lists.Sort();
+            rlists = lists;
+            rlists.Reverse();
+            nlists = rlists;
+            for (int i = 0; i < nlists.Count(); i++)
+            {
+                see += nlists[i] + "\n";
+            }
+
+            MessageBox.Show(see);
         }
     }
 }

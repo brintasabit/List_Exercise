@@ -38,6 +38,8 @@
             this.minButton = new System.Windows.Forms.Button();
             this.maxButton = new System.Windows.Forms.Button();
             this.sortButton = new System.Windows.Forms.Button();
+            this.descendingButton = new System.Windows.Forms.Button();
+            this.ascendingButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -136,11 +138,33 @@
             this.sortButton.UseVisualStyleBackColor = true;
             this.sortButton.Click += new System.EventHandler(this.sortButton_Click);
             // 
+            // descendingButton
+            // 
+            this.descendingButton.Location = new System.Drawing.Point(652, 81);
+            this.descendingButton.Name = "descendingButton";
+            this.descendingButton.Size = new System.Drawing.Size(103, 38);
+            this.descendingButton.TabIndex = 9;
+            this.descendingButton.Text = "Descending";
+            this.descendingButton.UseVisualStyleBackColor = true;
+            this.descendingButton.Click += new System.EventHandler(this.descendingButton_Click);
+            // 
+            // ascendingButton
+            // 
+            this.ascendingButton.Location = new System.Drawing.Point(652, 142);
+            this.ascendingButton.Name = "ascendingButton";
+            this.ascendingButton.Size = new System.Drawing.Size(103, 37);
+            this.ascendingButton.TabIndex = 10;
+            this.ascendingButton.Text = "Ascending";
+            this.ascendingButton.UseVisualStyleBackColor = true;
+            this.ascendingButton.Click += new System.EventHandler(this.ascendingButton_Click);
+            // 
             // ListExercise
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ascendingButton);
+            this.Controls.Add(this.descendingButton);
             this.Controls.Add(this.sortButton);
             this.Controls.Add(this.maxButton);
             this.Controls.Add(this.minButton);
@@ -170,6 +194,8 @@
         private System.Windows.Forms.Button minButton;
         private System.Windows.Forms.Button maxButton;
         private System.Windows.Forms.Button sortButton;
+        private System.Windows.Forms.Button descendingButton;
+        private System.Windows.Forms.Button ascendingButton;
     }
 }
 
