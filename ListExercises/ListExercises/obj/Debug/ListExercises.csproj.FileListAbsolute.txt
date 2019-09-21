@@ -1,0 +1,10 @@
+D:\BITM\Git\ListExercises\ListExercises\bin\Debug\ListExercises.exe.config
+D:\BITM\Git\ListExercises\ListExercises\bin\Debug\ListExercises.exe
+D:\BITM\Git\ListExercises\ListExercises\bin\Debug\ListExercises.pdb
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.csprojAssemblyReference.cache
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.Properties.Resources.resources
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.csproj.GenerateResource.cache
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.csproj.CoreCompileInputs.cache
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.exe
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.pdb
+D:\BITM\Git\ListExercises\ListExercises\obj\Debug\ListExercises.ListExercise.resources
